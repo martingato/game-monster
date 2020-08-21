@@ -52,82 +52,32 @@
 					</div>
 					<div class="box-screen-two">
 
-
 						<div class="lates-game-box">
-							<div class="picture-lates-game">
-								<a href="">
-									<img src="img/game_left.png" alt="" width="200px">
-								</a>
-							</div>
-							<div class="title-lates-game">
-								Bowling Master 2
-							</div>
-							<div class="rating-box">
-								<h3>Rating</h3>
-								<div class="rating-stars">
-									*****
+							<div class="conteiner-wrapper">
+								<div class="box">
+									<h2 class="name">June</h2>
+									<a href="#" class="buy">Buy now</a>
+									<div class="circle"></div>
+									<img src="img/figure1.png" class="product" alt="" width="200px">
+									<!-- <img src="img/figure1.png" class="product"> -->
+								</div>
+								<div class="box">
+									<h2 class="name">Master Okada</h2>
+									<a href="#" class="buy">Buy now</a>
+									<div class="circle"></div>
+									<img src="img/figure2.png" class="product" alt="" width="200px">
+									<!-- <img src="img/figure2.png" class="product"> -->
+								</div>
+								<div class="box">
+									<h2 class="name">Xiang Tzu</h2>
+									<a href="#" class="buy">Buy now</a>
+									<div class="circle"></div>
+									<img src="img/figure3.png" class="product" alt="" width="200px">
+									<!-- <img src="img/figure3.png" class="product"> -->
 								</div>
 							</div>
-							<div class="text-underrating">
-								Lets try it now
-							</div>
-							<span class="underrating-line"></span>
-							<button class="button">
-								Download now
-							</button>
 						</div>
-
-
-						<div class="lates-game-box">
-							<div class="picture-lates-game">
-								<a href="">
-									<img src="img/top_game_1111.png" alt="" width="200px">
-								</a>
-							</div>
-							<div class="title-lates-game">
-								Ping Dong 3
-							</div>
-							<div class="rating-box">
-								<h3>Rating</h3>
-								<div class="rating-stars">
-									*****
-								</div>
-							</div>
-							<div class="text-underrating">
-								Lets try it now
-							</div>
-							<span class="underrating-line"></span>
-							<button class="button">
-								Download now
-							</button>
-						</div>
-
-
-						<div class="lates-game-box">
-							<div class="picture-lates-game">
-								<a href="">
-									<img src="img/new_added.png" alt="" width="200px">
-								</a>
-							</div>
-							<div class="title-lates-game">
-								Hyper Racer
-							</div>
-							<div class="rating-box">
-								<h3>Rating</h3>
-								<div class="rating-stars">
-									*****
-								</div>
-							</div>
-							<div class="text-underrating">
-								Lets try it now
-							</div>
-							<span class="underrating-line"></span>
-							<button class="button">
-								Download now
-							</button>
-						</div>
-
-
+						
 					</div>
 				</div>
 			</div>
@@ -266,10 +216,10 @@
 		<div class="screen-six">
 			<div class="intro">
 				<div class="intro__media">
-					<video class="intro__media-video" src="../game_site/img/vidosik.mp4" loop></video>
+					<video class="intro__media-video" src="img/shadow3.mp4" autoplay muted loop></video>
 				</div>
 				<div class="youtube-bottom">
-					<a href="">
+					<a href="https://www.youtube.com/channel/UCckHBcinJJKHKi9sBEpGARA">
 						<img src="img/play_bottom.png" alt="">
 					</a>
 				</div>
@@ -280,7 +230,7 @@
 		</div>
 
 		<div class="fullscreen screen-seven">
-			<div class="screen-seven box">
+			<div class="screen-seven">
 				<div class="intro-screen-title">
 					Featured game
 					<span class="title-underline-wide"></span>
@@ -380,6 +330,13 @@
 		</div>
 	</footer>
 <script src="js/script.js"></script>
+<script src="js/vanilla-tilt.min.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".box"), {
+        max: 25,
+        speed: 400
+    });
+</script>
 </body>
 
 </html>
